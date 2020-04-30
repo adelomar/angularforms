@@ -46,6 +46,7 @@ export class AppComponent {
     this.user.answer = this.signupForm.value.questionAnswer;
     this.user.gender = this.signupForm.value.gender;
     console.log(this.signupForm);
+    this.signupForm.reset();
   }
   // onSubmit(form: NgForm){
   //   console.log(form.value);
